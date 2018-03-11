@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		A1F4EF66204DDDB1007ECC6A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F4EF65204DDDB1007ECC6A /* AppDelegate.swift */; };
-		A1F4EF68204DDDB1007ECC6A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F4EF67204DDDB1007ECC6A /* ViewController.swift */; };
 		A1F4EF6B204DDDB1007ECC6A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F4EF69204DDDB1007ECC6A /* Main.storyboard */; };
 		A1F4EF6D204DDDB1007ECC6A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1F4EF6C204DDDB1007ECC6A /* Assets.xcassets */; };
 		A1F4EF70204DDDB1007ECC6A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1F4EF6E204DDDB1007ECC6A /* LaunchScreen.storyboard */; };
+		A1F4EF78204DDF6D007ECC6A /* FavoritesList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F4EF77204DDF6D007ECC6A /* FavoritesList.swift */; };
+		A1F4EF7A204DE25B007ECC6A /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F4EF79204DE25B007ECC6A /* RootViewController.swift */; };
+		A1F4EF7C205093FC007ECC6A /* FontListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F4EF7B205093FC007ECC6A /* FontListViewController.swift */; };
+		A1F4EF7E205312C5007ECC6A /* FontSizeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F4EF7D205312C5007ECC6A /* FontSizeViewController.swift */; };
+		A1F4EF80205316A9007ECC6A /* FontInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A1F4EF7F205316A9007ECC6A /* FontInfoViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A1F4EF62204DDDB1007ECC6A /* FontsNavigationController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FontsNavigationController.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1F4EF65204DDDB1007ECC6A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		A1F4EF67204DDDB1007ECC6A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		A1F4EF6A204DDDB1007ECC6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1F4EF6C204DDDB1007ECC6A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A1F4EF6F204DDDB1007ECC6A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A1F4EF71204DDDB1007ECC6A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A1F4EF77204DDF6D007ECC6A /* FavoritesList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavoritesList.swift; sourceTree = "<group>"; };
+		A1F4EF79204DE25B007ECC6A /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
+		A1F4EF7B205093FC007ECC6A /* FontListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontListViewController.swift; sourceTree = "<group>"; };
+		A1F4EF7D205312C5007ECC6A /* FontSizeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontSizeViewController.swift; sourceTree = "<group>"; };
+		A1F4EF7F205316A9007ECC6A /* FontInfoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontInfoViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,11 +63,15 @@
 			isa = PBXGroup;
 			children = (
 				A1F4EF65204DDDB1007ECC6A /* AppDelegate.swift */,
-				A1F4EF67204DDDB1007ECC6A /* ViewController.swift */,
 				A1F4EF69204DDDB1007ECC6A /* Main.storyboard */,
 				A1F4EF6C204DDDB1007ECC6A /* Assets.xcassets */,
 				A1F4EF6E204DDDB1007ECC6A /* LaunchScreen.storyboard */,
 				A1F4EF71204DDDB1007ECC6A /* Info.plist */,
+				A1F4EF77204DDF6D007ECC6A /* FavoritesList.swift */,
+				A1F4EF79204DE25B007ECC6A /* RootViewController.swift */,
+				A1F4EF7B205093FC007ECC6A /* FontListViewController.swift */,
+				A1F4EF7D205312C5007ECC6A /* FontSizeViewController.swift */,
+				A1F4EF7F205316A9007ECC6A /* FontInfoViewController.swift */,
 			);
 			path = FontsNavigationController;
 			sourceTree = "<group>";
@@ -136,8 +148,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1F4EF68204DDDB1007ECC6A /* ViewController.swift in Sources */,
+				A1F4EF7E205312C5007ECC6A /* FontSizeViewController.swift in Sources */,
 				A1F4EF66204DDDB1007ECC6A /* AppDelegate.swift in Sources */,
+				A1F4EF7C205093FC007ECC6A /* FontListViewController.swift in Sources */,
+				A1F4EF80205316A9007ECC6A /* FontInfoViewController.swift in Sources */,
+				A1F4EF78204DDF6D007ECC6A /* FavoritesList.swift in Sources */,
+				A1F4EF7A204DE25B007ECC6A /* RootViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
